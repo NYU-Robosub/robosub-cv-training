@@ -1,5 +1,5 @@
 # RoboSub Perception — Synthetic CV Training Pipeline
-
+ jack 
 A synthetic computer vision training pipeline for the NYU RoboSub team. This project uses **Unity Perception** to generate labeled underwater imagery in simulation, then converts and trains object-detection models (YOLO / COCO formats) for real-time inference on the submarine's vision stack.
 
 ## Key Capabilities
