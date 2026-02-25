@@ -1,0 +1,86 @@
+###################################
+# Unity
+###################################
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# Auto-generated VS files
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Unity crash reports
+sysinfo.txt
+
+# Unity package cache
+Packages/packages-lock.json
+
+###################################
+# Python (training pipeline)
+###################################
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.whl
+.env
+.venv
+venv/
+env/
+
+###################################
+# YOLO / ML Artifacts
+###################################
+
+# Large training outputs
+runs/
+outputs/
+checkpoints/
+*.pt
+*.onnx
+*.engine
+*.weights
+
+# Dataset exports (raw synthetic runs)
+data/raw/
+data/processed/
+
+###################################
+# OS / Misc
+###################################
+
+.DS_Store
+Thumbs.db
+
+###################################
+# IDE
+###################################
+
+.vscode/
+.idea/
+
+###################################
+# Large Files (Optional if using LFS)
+###################################
+# Uncomment if needed
+# *.fbx
+# *.png
+# *.jpg
+# *.tiff
